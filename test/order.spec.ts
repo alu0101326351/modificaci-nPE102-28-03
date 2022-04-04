@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import 'mocha'
 
-import { Solver, Strategy } from '../src/Solve';
+import { Solver } from '../src/Solve';
 import { BubbleSort } from '../src/BubbleSort';
 import { MergeSort } from '../src/mergeSort';
 
