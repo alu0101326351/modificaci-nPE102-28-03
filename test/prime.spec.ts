@@ -2,6 +2,7 @@ import 'mocha'
 import { expect } from 'chai'
 import { primeNumber } from '../src/primeNumber'
 
+
 describe ("PRIME NUMBER TEST", () => {
     const myTest: primeNumber = primeNumber.getPrimeNumber();
     it ("Metodo firstPrime()", () => {
