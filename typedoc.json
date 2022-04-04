@@ -1,6 +1,8 @@
 {
     "entryPoints": [
-        "./src/primeNumber.ts"
+        "./src/Solve.ts",
+        "./src/BubbleSort.ts",
+        "./src/MergeSort.ts"
     ],
     "out": "./docs"
 }

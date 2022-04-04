@@ -1,9 +1,9 @@
-import { Strategy } from "./Solve";
 
+namespace Sort {
 /**
  * Clase que implementa el algoritmo BubbleSort
  */
-export class BubbleSort implements Strategy {
+    export class BubbleSort implements Strategy {
     /**
      * Ordena un array númerico con el algoritmo BubbleSort
      * @param data 
@@ -23,4 +23,6 @@ export class BubbleSort implements Strategy {
         }
         return data;        
     }
+}
+
 }

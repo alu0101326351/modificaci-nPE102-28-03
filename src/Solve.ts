@@ -1,4 +1,5 @@
-
+namespace Sort {
+    
 /**
  * Interfaz que declara el método execute donde se implementará el algoritmo de ordenación
  */
@@ -24,4 +25,5 @@ export class Solver {
     logic(): number[] {
         return this.strategy.execute(this.data);
     }
+}
 }
