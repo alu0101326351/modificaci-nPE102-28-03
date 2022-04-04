@@ -5,7 +5,7 @@ import { Solver } from '../src/Solve';
 import { BubbleSort } from '../src/BubbleSort';
 import { MergeSort } from '../src/mergeSort';
 
-describe ('SORT TEST', () => {
+describe ('SORT TEST', () => { 
     let Bubble: BubbleSort = new BubbleSort()
     let Bsolver: Solver = new Solver([2, 3, 5, 1], Bubble)
 
