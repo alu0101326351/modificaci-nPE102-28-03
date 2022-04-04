@@ -1,4 +1,5 @@
-namespace Sort {
+import { Strategy } from "./Solve";
+
 /**
  * Clase que implementa el algoritmo MergeSort
  */
@@ -41,5 +42,4 @@ namespace Sort {
           }
     }
 
-}
 
