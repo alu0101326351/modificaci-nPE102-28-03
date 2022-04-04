@@ -12,6 +12,7 @@ describe ("PRIME NUMBER TEST", () => {
         expect(myTest.firstPrimes(-1)).to.eqls([]);
     });
 
+    
     it ("Metodo range()", () => {
         expect(myTest.range(0, 10)).to.eqls([2, 3, 5, 7]);
         expect(myTest.range(5, 14)).to.eqls([5, 7, 11, 13]);
